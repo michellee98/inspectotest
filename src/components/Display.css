@@ -1,0 +1,67 @@
+.mister {
+    text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  padding: 0%;
+}
+
+.siz {
+    font-size: 20px;
+}
+
+.huya {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 15px 15px 25px 340px;
+   width: 400px;
+   height: 50px;
+   font-size: 20px;
+   padding: 10px;
+   
+  
+}
+
+dt{
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+dd{
+  font-size: 20px;
+}
+
+.fid {
+  display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.pencil {
+  color:rgb(199, 23, 23);
+  float:right;
+  font-size: 40px;
+  margin: 40px -100px 10px 40px;
+}
+
+.pencil:hover {
+  filter: drop-shadow(2px 2px 2px rgb(92, 27, 27));
+}
+
+.saad {
+  background-color: azure;
+  color: azure;
+}
+/* 
+input {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+} */

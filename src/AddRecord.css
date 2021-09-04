@@ -1,0 +1,28 @@
+.bb {
+    background-color: rgb(49, 172, 114);
+    box-shadow: 0 50px 70px -20px rgba(8, 8, 8, 0.8);
+    border-bottom: 10px rgb(49, 172, 114); 
+    text-align: left;
+    color: whitesmoke;
+}
+
+.butt {
+    background-color:  rgb(14, 138, 80);
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    font-size: 28px;
+  }
+.butt:hover {
+    background-color: #d16323; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+

@@ -1,0 +1,13 @@
+video{
+    margin:0;
+    padding:0;
+    width:720p;
+    height:550; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+canvas{
+    position: absolute;
+} 

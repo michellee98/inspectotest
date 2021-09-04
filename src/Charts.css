@@ -1,0 +1,54 @@
+.chartss {
+    width: 900px;
+    height: 500px;
+    margin: 40px 10px 10px 400px;
+}
+
+/* Float four columns side by side */
+.columnnn {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .rowww {
+      /* margin: 0 -5px; */
+margin: 20px 10px 10px 360px;}
+  
+  /* Clear floats after the columns */
+  .rowww:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .columnnn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 36px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .vv {
+      text-align: center;
+  }
+
+  .dad{
+      width: 650px;
+      height: 500px;
+      float: right;
+      margin: -360px 20px 20px 20px;
+      position:relative;
+  }
+  
